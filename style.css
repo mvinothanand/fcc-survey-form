@@ -1,0 +1,45 @@
+body {
+  background-color: #7c83fd;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  margin: 40px auto;
+  text-align: center;
+}
+
+main {
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 10px;
+  background-color: #172774;
+  color: white;
+  padding: 2rem;
+}
+.main-label {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.full-width-input {
+  width: 100%;
+}
+
+.taller-input {
+  height: 30px;
+}
+
+fieldset {
+  padding-top: 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+}
