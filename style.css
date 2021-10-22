@@ -1,26 +1,87 @@
 body {
-  background-color: #7c83fd;
+  /* background-image: url(https://images.unsplash.com/photo-1634852182910-27b0dd39bab6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1633&q=80); */
+  background-color: hsl(230, 80%, 30%, 0.8);
+  /* background-position: center; */
+  background-repeat: no-repeat;
   color: white;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
+  /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.05rem;
 }
+
+.bgimage {
+  position: fixed;
+  /* z-index: -1; */
+  opacity: 0.2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
 header {
-  margin: 40px auto;
+  /* margin: 40px auto 10px auto; */
   text-align: center;
+  padding-top: 40px;
+  /* position: fixed; */
+  /* left: auto; */
+  /* top: 0; */
 }
 
 main {
   width: 50%;
-  margin: 50px auto;
+  margin: 20px auto;
   border-radius: 10px;
   background-color: #172774;
   color: white;
   padding: 2rem;
+  opacity: 0.7;
 }
+
+#description {
+  margin: 0.5rem auto;
+  font-size: 1.25rem;
+  font-style: italic;
+  letter-spacing: 0.1rem;
+}
+
+#title {
+  margin: 0 auto;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  /* position: fixed; */
+}
+
+.field-control {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+::placeholder {
+  /* padding-bottom: 20px; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  padding-left: 5px;
+}
+
 .main-label {
   display: block;
   padding-top: 20px;
   padding-bottom: 5px;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+legend {
+  padding-top: 5px;
+  /* padding-bottom: 5px; */
+  letter-spacing: 0.05rem;
+  font-size: 1.25rem;
 }
 
 .full-width-input {
@@ -32,14 +93,27 @@ main {
 }
 
 fieldset {
-  padding-top: 20px;
+  padding-top: 10px;
+  /* border-style: none; */
+  margin-top: 20px;
 }
 
 textarea {
   width: 100%;
+  resize: none;
+  border-radius: 5px;
 }
 
 button {
   width: 100%;
   padding: 1rem;
+  margin-top: 20px;
+  background-color: hsl(260, 80%, 20%);
+  border: none;
+  border-radius: 5px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
 }
